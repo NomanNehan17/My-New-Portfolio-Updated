@@ -7,17 +7,17 @@ import { VscFolderLibrary } from 'react-icons/vsc';
 
 // Import certificate images
 import exp1 from '../../assets/experience1.jpg';
-import exp2 from '../../assets/experience2.jpg';
-import exp3 from '../../assets/experience3.jpg';
-import exp4 from '../../assets/experience4.jpg';
-import exp5 from '../../assets/experience5.jpg';
-import exp6 from '../../assets/experience6.jpg';
-import exp7 from '../../assets/experience7.jpg';
-import exp8 from '../../assets/experience8.jpg';
-import exp9 from '../../assets/experience9.jpg';
-import exp10 from '../../assets/experience10.jpg';
-import exp11 from '../../assets/experience11.jpg';
-import exp12 from '../../assets/experience12.jpg';
+import exp2 from '../../assets/Experience2.jpg';
+import exp3 from '../../assets/Experience3.jpg';
+import exp4 from '../../assets/Experience4.jpg';
+import exp5 from '../../assets/Experience5.jpg';
+import exp6 from '../../assets/Experience6.jpg';
+import exp7 from '../../assets/Experience7.jpg';
+import exp8 from '../../assets/Experience8.jpg';
+import exp9 from '../../assets/Experience9.jpg';
+import exp10 from '../../assets/Experience10.jpg';
+import exp11 from '../../assets/Experience11.jpg';
+import exp12 from '../../assets/Experience12.jpg';
 const About = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
