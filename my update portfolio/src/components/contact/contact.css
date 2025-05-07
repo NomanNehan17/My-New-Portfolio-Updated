@@ -1,0 +1,127 @@
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__option {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+/*===================== FROM ==================== */
+from {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+}
+
+/* Main Contact Container */
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-rows: auto auto; /* Two rows */
+  gap: 2rem; /* Adjust the space between the options */
+}
+
+/* Contact Options */
+.contact__options {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 2rem; /* Adjust space between the options */
+}
+
+.contact__option {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+      width: 90%; /* Use most of the screen width */
+  }
+
+  .contact__options {
+      gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .contact__option {
+      padding: 1rem; /* Reduced padding for better spacing */
+  }
+
+  .contact__option-icon {
+      font-size: 1.3rem; /* Slightly smaller icons */
+  }
+
+  .contact__option a {
+      font-size: 0.9rem; /* Slightly bigger text for readability */
+  }
+}
